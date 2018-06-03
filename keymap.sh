@@ -31,9 +31,9 @@ BTN_TL=lb,BTN_TR=rb,BTN_TL2=lt,BTN_TR2=rt \
         --axismap -Y1=Y1,-Y2=Y2 \
         --ui-buttonmap rt=BTN_LEFT,b=BTN_RIGHT \
         --axis-sensitivity x1=1.0,y1=1.0 \
-        --ui-axismap x2=REL_X:20:3,y2=REL_Y:20:3 \
+        --ui-axismap x2=REL_X:14:3,y2=REL_Y:14:3 \
         --axis-sensitivity x2=0,y2=0 \
-        --ui-axismap x1^deadzone:2000=REL_X:14,y1^deadzone:2000=REL_Y:14
+        --ui-axismap x1^deadzone:2000=REL_X:20,y1^deadzone:2000=REL_Y:20
 
 
 # XBOX Connected Bluetooth
@@ -71,7 +71,7 @@ BTN_TL=lb,BTN_TR=rb \
         --axis-sensitivity x1=1.0,y1=1.0 \
         --ui-axismap x1^deadzone:2000=REL_X:40:3,y1^deadzone:2000=REL_Y:40:3 \
         --axis-sensitivity x2=0,y2=0 \
-        --ui-axismap x2=REL_X:8:5,y2=REL_Y:8:5 \
+        --ui-axismap x2=REL_X:15:5,y2=REL_Y:15:5 \
         --ui-axismap lt+x2=REL_X:20:5,lt+y2=REL_Y:20:5 \
         &
 
