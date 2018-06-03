@@ -74,3 +74,4 @@ BTN_TL=lb,BTN_TR=rb \
         --ui-axismap x2=REL_X:8:5,y2=REL_Y:8:5 \
         --ui-axismap lt+x2=REL_X:20:5,lt+y2=REL_Y:20:5 \
         &
+
