@@ -1,6 +1,20 @@
 # xwing-xbox-keymap
 XBOXDRV keymap for XBOX Controller with XWING
 
+# Quick Tip Commands
+
+## View Devices
+cat /proc/bus/input/devices
+
+### View by ID
+ls /dev/input/by-id/
+
+## Test Input Device
+evtest /dev/input/event[X]
+
+## Key Mappings
+/opt/retropie/supplementary/xboxdrv/bin/xboxdrv -help-key
+
 # Resources
 - http://keycard.mogelpower.de/t3/swxwing.pdf
 - https://pingus.seul.org/~grumbel/xboxdrv/xboxdrv.html
