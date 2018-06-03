@@ -69,7 +69,8 @@ BTN_TL=lb,BTN_TR=rb \
         --ui-buttonmap rt=BTN_LEFT \
         --ui-buttonmap b=BTN_RIGHT \
         --axis-sensitivity x1=1.0,y1=1.0 \
-        --ui-axismap x1^deadzone:2000=REL_X:35,y1^deadzone:2000=REL_Y:35 \
+        --ui-axismap x1^deadzone:2000=REL_X:40,y1^deadzone:2000=REL_Y:40 \
         --axis-sensitivity x2=0,y2=0 \
         --ui-axismap x2=REL_X:8:5,y2=REL_Y:8:5 \
+        --ui-axismap lt+x2=REL_X:20:5,lt+y2=REL_Y:20:5 \
         &
