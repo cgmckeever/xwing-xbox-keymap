@@ -37,7 +37,6 @@ BTN_TL=lb,BTN_TR=rb,BTN_TL2=lt,BTN_TR2=rt \
 
 
 # XBOX Connected Bluetooth
-sudo killall >> /dev/shm/runcommand.log 2>&1 xboxdrv
 sudo /opt/retropie/supplementary/xboxdrv/bin/xboxdrv \
         --evdev /dev/input/event3 \
         --detach-kernel-driver \
@@ -60,13 +59,14 @@ BTN_TL=lb,BTN_TR=rb \
         --ui-buttonmap start=KEY_F10,lt+start=KEY_LEFTSHIFT+KEY_F10 \
         --ui-buttonmap back=KEY_F9,lt+back=KEY_LEFTSHIFT+KEY_F9 \
         --ui-buttonmap guide=KEY_ENTER,lt+guide=KEY_M \
-        --ui-axismap tr=KEY_I \
-        --ui-axismap lt+tl=KEY_H \
+        --ui-buttonmap tr=KEY_I \
+        --ui-buttonmap lt+tl=KEY_H \
         --ui-buttonmap lb=KEY_KPMINUS,lt+lb=KEY_BACKSLASH \
         --ui-buttonmap rb=KEY_BACKSPACE,lt+rb=KEY_KPMINUS \
-        --ui-buttonmap lt+rt=KEY_U \
+        --ui-axismap lt+rt=KEY_U \
         --axismap -Y1=Y1,-Y2=Y2 \
-        --ui-buttonmap rt=BTN_LEFT,b=BTN_RIGHT \
+        --ui-axismap rt=BTN_LEFT \
+        --ui-buttonmap b=BTN_RIGHT \
         --axis-sensitivity x1=1.0,y1=1.0 \
         --ui-axismap x2=REL_X:20:3,y2=REL_Y:20:3 \
         --axis-sensitivity x2=0,y2=0 \
