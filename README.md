@@ -15,6 +15,9 @@ evtest /dev/input/event[X]
 ## Key Mappings
 /opt/retropie/supplementary/xboxdrv/bin/xboxdrv -help-key
 
+## Fix Keyboard Mappings
+https://elinux.org/R-Pi_Troubleshooting#Re-mapping_the_keyboard_with_Debian_Squeeze
+
 # Resources
 - http://keycard.mogelpower.de/t3/swxwing.pdf
 - https://pingus.seul.org/~grumbel/xboxdrv/xboxdrv.html
