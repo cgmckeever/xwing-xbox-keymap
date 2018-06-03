@@ -51,7 +51,7 @@ ABS_Z=x2,ABS_RZ=y2,\
 ABS_HAT0X=dpad_x,ABS_HAT0Y=dpad_y,\
 ABS_BRAKE=lt,ABS_GAS=rt \
         --evdev-keymap \
-KEY_HOMEPAGE=guide,BTN_BACK=back,BTN_START=start,\
+KEY_HOMEPAGE=guide,KEY_BACK=back,BTN_START=start,\
 BTN_SOUTH=a,BTN_EAST=b,BTN_NORTH=x,BTN_WEST=y,\
 BTN_THUMBL=tl,BTN_THUMBR=tr,\
 BTN_TL=lb,BTN_TR=rb \
