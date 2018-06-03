@@ -62,7 +62,7 @@ BTN_TL=lb,BTN_TR=rb \
         --ui-buttonmap guide=KEY_ENTER,lt+guide=KEY_M \
         --ui-buttonmap tr=KEY_I \
         --ui-buttonmap lt+tl=KEY_H \
-        --ui-buttonmap lb=KEY_KPMINUS,lt+lb=XK_BACKSLASH \
+        --ui-buttonmap lb=KEY_KPMINUS,lt+lb=KEY_BACKSLASH \
         --ui-buttonmap rb=KEY_BACKSPACE,lt+rb=KEY_KPPLUS \
         --ui-buttonmap lt+rt=KEY_U \
         --axismap -Y1=Y1,-Y2=Y2 \
